@@ -15,7 +15,7 @@ Here's a Save image -
 ![alt text](https://github.com/Varun221/WebCam_paint/blob/master/save.png)
 
 
-Libraries Used - 
+Libraries Used -   
 Opencv-Python (v4.0)  
 Numpy (v1.18)
 
