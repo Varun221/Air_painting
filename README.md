@@ -1,18 +1,30 @@
-# Air_painting
+# WebCam_paint
 An OpenCV Project
 
-Ever wished drawing in air and the paint to come live?
-Well here's your wish fulfilled
+This application allows you to track an object's movement, using which the user can draw on the screen by moving the object around. It also contains a hold feature, in which by showing another object you stop the camera from painting. It is useful in painting disconnected drawings. 
+You can select colours and brush sizes according to your choice, by bringing the object's pointer on the palette.
 
 Features - 
-1. Select your favourite colour and brush size, without ever touching the keyboard.
-2. Save your file, when done painting, again, without ever touching the keyboard.
-3. Stop painting when you want by "holding" the camera by showing your hand. (how cool is that!?)
+1. The application contains a total of 12 colors and 5 brush sizes.
+2. The painting can be started and stopped by the buttons in the palette.
+3. The Save option lets you save your painting in a "save.png".
+4. You can stop and start the painting instantly by creating a hold object.
 
-Customizing - 
-To create your own marker, find the hsv values. ( The files hsv.py and hsv_check.py are there to help)
-and load them in lower_bound and upper_bound
-To create the holder, follow the same as above and load them into hold_up and hold_down.
+Here's a Save image - 
+![alt text](https://github.com/Varun221/WebCam_paint/blob/master/save.png)
+
+
+Libraries Used - 
+Opencv-Python (v4.0)
+Numpy (v1.18)
+
+
+Customizing The application- 
+The code is open sourced and commented wherever necessary. Feel free to reach out for any suggestions.
+Some options for customizing - 
+1. To create a marker and holder - use the files hsv.py and hsv_check.py.
+   They are made for creating and testing of object detection codes.
+2. The pallete has been created keeping the resolution of 900x650 in mind. Changing it will mess up the coordinates.   
 
 
 
