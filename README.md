@@ -11,11 +11,12 @@ Features -
 4. You can stop and start the painting instantly by creating a hold object.
 
 Here's a Save image - 
+
 ![alt text](https://github.com/Varun221/WebCam_paint/blob/master/save.png)
 
 
 Libraries Used - 
-Opencv-Python (v4.0)
+Opencv-Python (v4.0)  
 Numpy (v1.18)
 
 
