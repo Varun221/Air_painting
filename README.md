@@ -1,4 +1,4 @@
-# WebCam_paint
+# Air_painting
 An OpenCV Project
 
 This application allows you to track an object's movement, using which the user can draw on the screen by moving the object around. It also contains a hold feature, in which by showing another object you stop the camera from painting. It is useful in painting disconnected drawings. 
